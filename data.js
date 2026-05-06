@@ -2,76 +2,256 @@
 // Re-export this file from the matcher tool when assignments change, then push to GitHub.
 window.ASSIGNMENTS = [
   {
-    "name": "Alice",
-    "brief": "I can never find the latest version of a design file — they multiply and I don't know which one is real",
-    "email": "",
+    "name": "Aghalya Narayanan",
+    "brief": "I never know what to watch next and end up re-watching something I've already seen because it's easier. I have a huge backlog of things I want to get to but no idea where to start or how to pick.",
+    "email": "aghalya@arista.com",
     "timezone": "India",
-    "assignedTo": "Dana",
-    "assignedBrief": "Every meeting has a notes doc that no one ever opens again, including me",
-    "theme": "Gordon Ramsay's Kitchen"
-  },
-  {
-    "name": "Bob",
-    "brief": "I spend 20 minutes every Monday morning figuring out what I was doing Friday afternoon",
-    "email": "",
-    "timezone": "US",
-    "assignedTo": "Frank",
-    "assignedBrief": "I copy the same boilerplate into every new project and it takes forever and I always forget something",
-    "theme": "Game Show"
-  },
-  {
-    "name": "Charlie",
-    "brief": "Feedback comes in from Slack, email, Figma comments, and a sticky note on my monitor — I lose half of it",
-    "email": "",
-    "timezone": "Europe",
-    "assignedTo": "Eve",
-    "assignedBrief": "I have 12 Figma pages called \"New Page\" and genuinely no idea what's in any of them",
-    "theme": "Confetti & Party"
-  },
-  {
-    "name": "Dana",
-    "brief": "Every meeting has a notes doc that no one ever opens again, including me",
-    "email": "",
-    "timezone": "India",
-    "assignedTo": "Hal",
-    "assignedBrief": "My laptop always picks the worst possible moment to do a software update",
-    "theme": "The Oracle"
-  },
-  {
-    "name": "Eve",
-    "brief": "I have 12 Figma pages called \"New Page\" and genuinely no idea what's in any of them",
-    "email": "",
-    "timezone": "Europe",
-    "assignedTo": "Charlie",
-    "assignedBrief": "Feedback comes in from Slack, email, Figma comments, and a sticky note on my monitor — I lose half of it",
+    "assignedTo": "Gowrie Ramcharan",
+    "assignedBrief": "I save articles, videos, and links to read later and they just pile up endlessly. I have hundreds of things in my read-later list and I haven't opened any of them in months.",
     "theme": "Luxury Fashion Brand"
   },
   {
-    "name": "Frank",
-    "brief": "I copy the same boilerplate into every new project and it takes forever and I always forget something",
-    "email": "",
+    "name": "Ame Wongsa",
+    "brief": "Every time I travel, packing feels like a puzzle I solve badly. I always bring things I never touch and forget the one thing I actually need. I want something that remembers what I actually used last time.",
+    "email": "ame@arista.com",
     "timezone": "US",
-    "assignedTo": "Bob",
-    "assignedBrief": "I spend 20 minutes every Monday morning figuring out what I was doing Friday afternoon",
+    "assignedTo": "Megan Hurford",
+    "assignedBrief": "I always overpack. I bring four outfit options for a two-day trip and wear two of them. I want something that helps me pack only what I'll actually use, not what I imagine I might need.",
+    "theme": "Comic Sans Professional"
+  },
+  {
+    "name": "Andrei Ticuleanu",
+    "brief": "I have a running tab of what I owe people and what people owe me, and it lives entirely in my head. Someone covers coffee, someone gets lunch — it adds up and becomes awkward to bring up after a while.",
+    "email": "andrei@arista.com",
+    "timezone": "Europe",
+    "assignedTo": "Noyonika Chatterjee",
+    "assignedBrief": "When I visit a new city, I spend so long researching what to do that I run out of time to actually do any of it. I just want a short, sensible plan I can follow without overthinking.",
+    "theme": "IKEA Manual"
+  },
+  {
+    "name": "Anthony Maguire",
+    "brief": "I never know what to do with an unplanned free evening. I end up on my phone doing nothing instead of actually enjoying the time. I just want one concrete suggestion based on my mood.",
+    "email": "anthonymaguire@arista.com",
+    "timezone": "Europe",
+    "assignedTo": "Andrei Ticuleanu",
+    "assignedBrief": "I have a running tab of what I owe people and what people owe me, and it lives entirely in my head. Someone covers coffee, someone gets lunch — it adds up and becomes awkward to bring up after a while.",
+    "theme": "Everything is Rated"
+  },
+  {
+    "name": "Ashmita Saha",
+    "brief": "I have subscriptions I've completely forgotten about and only find out when the charge appears. By the time I notice, I've paid for three more months of something I haven't used in a year.",
+    "email": "ashmita.saha@arista.com",
+    "timezone": "India",
+    "assignedTo": "Suchithra Sathiyamurthy",
+    "assignedBrief": "I order things online and then have no idea when they're actually arriving. I end up checking three different courier sites with three tracking numbers and getting three different answers.",
+    "theme": "Medieval Illuminated Manuscript"
+  },
+  {
+    "name": "Christina Janczak",
+    "brief": "I make a grocery list and then either leave it at home or forget to add something obvious. I've made a second trip back to the shop for one item more times than I can count.",
+    "email": "christina.janczak@arista.com",
+    "timezone": "Europe",
+    "assignedTo": "Anthony Maguire",
+    "assignedBrief": "I never know what to do with an unplanned free evening. I end up on my phone doing nothing instead of actually enjoying the time. I just want one concrete suggestion based on my mood.",
+    "theme": "Windows 95"
+  },
+  {
+    "name": "Cian Ronayne",
+    "brief": "Choosing a playlist for any occasion takes me way longer than it should. I end up shuffling the same three albums because I can't decide, and the moment has usually passed by the time I do.",
+    "email": "cianronayne@arista.com",
+    "timezone": "Europe",
+    "assignedTo": "Vrushali Bayani",
+    "assignedBrief": "I always mean to journal or reflect at the end of the day but by the time I sit down I'm too tired to think of anything to write. I want something that makes it feel less like homework and actually worth doing.",
+    "theme": "Confetti & Party"
+  },
+  {
+    "name": "Gabi Cannon",
+    "brief": "I keep meaning to drink more water during the day but I only think about it when I'm already dehydrated. No amount of app notifications has worked — I just dismiss them without thinking.",
+    "email": "gabi@arista.com",
+    "timezone": "US",
+    "assignedTo": "Ryan Madsen",
+    "assignedBrief": "When I have an unexpected free hour I can never decide how to use it. I either do something mindless or spend the entire hour deciding, and then the time is just gone.",
+    "theme": "Tech Startup Landing Page"
+  },
+  {
+    "name": "Gowrie Ramcharan",
+    "brief": "I save articles, videos, and links to read later and they just pile up endlessly. I have hundreds of things in my read-later list and I haven't opened any of them in months.",
+    "email": "gramcharan@arista.com",
+    "timezone": "India",
+    "assignedTo": "Sophia Li",
+    "assignedBrief": "I scroll on my phone in bed for way too long and it ruins my sleep every time. I know I should stop but there's never a natural point where I feel ready to put it down.",
+    "theme": "Telenovela"
+  },
+  {
+    "name": "Joseph Walsh",
+    "brief": "I can never remember if I've already recommended something to someone or told them the same story twice. It happens more than I'd like and it's more embarrassing every time.",
+    "email": "josephwalsh@arista.com",
+    "timezone": "Europe",
+    "assignedTo": "Cian Ronayne",
+    "assignedBrief": "Choosing a playlist for any occasion takes me way longer than it should. I end up shuffling the same three albums because I can't decide, and the moment has usually passed by the time I do.",
+    "theme": "The Oracle"
+  },
+  {
+    "name": "Julie Powell",
+    "brief": "Meal planning for the week sounds simple but I can never stick to it. I plan for seven dinners, cook three, and the rest quietly goes off in the back of the fridge.",
+    "email": "jpowell@arista.com",
+    "timezone": "US",
+    "assignedTo": "Joseph Walsh",
+    "assignedBrief": "I can never remember if I've already recommended something to someone or told them the same story twice. It happens more than I'd like and it's more embarrassing every time.",
+    "theme": "The \"Drunk\" UI"
+  },
+  {
+    "name": "Lucas Fung",
+    "brief": "When someone asks me to pick a restaurant I completely freeze. There are too many options and I don't want to choose something everyone secretly hates. I just want something to decide for me.",
+    "email": "lkfung@arista.com",
+    "timezone": "US",
+    "assignedTo": "Melody Sweeney",
+    "assignedBrief": "I never know what to do on a Sunday afternoon with no plans. The day slips by and by 6pm I feel like I wasted it, even when there were perfectly good options available.",
+    "theme": "Breaking News"
+  },
+  {
+    "name": "Lotfi Sakani",
+    "brief": "I lose track of where I am in a TV series whenever I take a break. I come back after a few weeks and have no idea what happened or which episode I was on.",
+    "email": "lotfi@arista.com",
+    "timezone": "Europe",
+    "assignedTo": "Lucas Fung",
+    "assignedBrief": "When someone asks me to pick a restaurant I completely freeze. There are too many options and I don't want to choose something everyone secretly hates. I just want something to decide for me.",
+    "theme": "Airport Departures Board"
+  },
+  {
+    "name": "Megan Hurford",
+    "brief": "I always overpack. I bring four outfit options for a two-day trip and wear two of them. I want something that helps me pack only what I'll actually use, not what I imagine I might need.",
+    "email": "megan.hurford@arista.com",
+    "timezone": "US",
+    "assignedTo": "Saket Gaikwad",
+    "assignedBrief": "I share a flat and we split costs, but keeping track of who paid for what is a constant source of low-level stress. Every system we try ends up messy within a week.",
+    "theme": "Retro Arcade"
+  },
+  {
+    "name": "Melody Sweeney",
+    "brief": "I never know what to do on a Sunday afternoon with no plans. The day slips by and by 6pm I feel like I wasted it, even when there were perfectly good options available.",
+    "email": "melody@arista.com",
+    "timezone": "US",
+    "assignedTo": "Ame Wongsa",
+    "assignedBrief": "Every time I travel, packing feels like a puzzle I solve badly. I always bring things I never touch and forget the one thing I actually need. I want something that remembers what I actually used last time.",
+    "theme": "The Infomercial"
+  },
+  {
+    "name": "Muxi Wang",
+    "brief": "I start habits and track them for about a week before forgetting entirely. I've downloaded five different habit tracker apps and abandoned every single one of them.",
+    "email": "muxi@arista.com",
+    "timezone": "US",
+    "assignedTo": "Sherry He",
+    "assignedBrief": "I take notes in too many places — my phone, a notebook, three different apps — and can never find what I wrote down when I actually need it.",
+    "theme": "The \"Secret Agent\""
+  },
+  {
+    "name": "Noyonika Chatterjee",
+    "brief": "When I visit a new city, I spend so long researching what to do that I run out of time to actually do any of it. I just want a short, sensible plan I can follow without overthinking.",
+    "email": "noyonika@arista.com",
+    "timezone": "India",
+    "assignedTo": "Muxi Wang",
+    "assignedBrief": "I start habits and track them for about a week before forgetting entirely. I've downloaded five different habit tracker apps and abandoned every single one of them.",
+    "theme": "Gordon Ramsay's Kitchen"
+  },
+  {
+    "name": "Ritesh Tiwari",
+    "brief": "My grocery list exists simultaneously in a WhatsApp message to myself, a notes app, and sometimes a photo of the fridge. None of them are in sync and I always miss something.",
+    "email": "ritesh.tiwari@arista.com",
+    "timezone": "India",
+    "assignedTo": "Yogesh Khabale",
+    "assignedBrief": "I have a list of things I want to learn — languages, skills, random topics — but no sense of where to start or how to make any actual progress. I pick something up for a week and then drop it for something else.",
+    "theme": "Weather Forecast"
+  },
+  {
+    "name": "Rosee Byrne",
+    "brief": "I have a long list of books I want to read but can never remember which ones I've finished versus which ones I started and quietly abandoned three chapters in.",
+    "email": "roseebyrne@arista.com",
+    "timezone": "Europe",
+    "assignedTo": "Julie Powell",
+    "assignedBrief": "Meal planning for the week sounds simple but I can never stick to it. I plan for seven dinners, cook three, and the rest quietly goes off in the back of the fridge.",
+    "theme": "Personal Trainer"
+  },
+  {
+    "name": "Ryan Madsen",
+    "brief": "When I have an unexpected free hour I can never decide how to use it. I either do something mindless or spend the entire hour deciding, and then the time is just gone.",
+    "email": "ryan@arista.com",
+    "timezone": "US",
+    "assignedTo": "Lotfi Sakani",
+    "assignedBrief": "I lose track of where I am in a TV series whenever I take a break. I come back after a few weeks and have no idea what happened or which episode I was on.",
+    "theme": "Dating App"
+  },
+  {
+    "name": "Saket Gaikwad",
+    "brief": "I share a flat and we split costs, but keeping track of who paid for what is a constant source of low-level stress. Every system we try ends up messy within a week.",
+    "email": "saket.gaikwad@arista.com",
+    "timezone": "India",
+    "assignedTo": "Ashmita Saha",
+    "assignedBrief": "I have subscriptions I've completely forgotten about and only find out when the charge appears. By the time I notice, I've paid for three more months of something I haven't used in a year.",
+    "theme": "Maximalist / Scrappy"
+  },
+  {
+    "name": "Sharon Kalarikkal",
+    "brief": "Choosing a gift for someone I actually know well should be easy, but I always panic and end up buying something generic. I want something that helps me think about who the person really is.",
+    "email": "sharon.kalarikkal@arista.com",
+    "timezone": "India",
+    "assignedTo": "Rosee Byrne",
+    "assignedBrief": "I have a long list of books I want to read but can never remember which ones I've finished versus which ones I started and quietly abandoned three chapters in.",
+    "theme": "Cruise Ship Activities Board"
+  },
+  {
+    "name": "Sherry He",
+    "brief": "I take notes in too many places — my phone, a notebook, three different apps — and can never find what I wrote down when I actually need it.",
+    "email": "sherryhe@arista.com",
+    "timezone": "US",
+    "assignedTo": "Gabi Cannon",
+    "assignedBrief": "I keep meaning to drink more water during the day but I only think about it when I'm already dehydrated. No amount of app notifications has worked — I just dismiss them without thinking.",
+    "theme": "Medical Chart"
+  },
+  {
+    "name": "Sophia Li",
+    "brief": "I scroll on my phone in bed for way too long and it ruins my sleep every time. I know I should stop but there's never a natural point where I feel ready to put it down.",
+    "email": "sophiali@arista.com",
+    "timezone": "US",
+    "assignedTo": "Yevhen Lieskov",
+    "assignedBrief": "I can never decide whether to cook or order food, and the indecision itself takes longer than either option would. By the time I make a choice I'm too hungry to enjoy it.",
     "theme": "Mobile-First (Literally)"
   },
   {
-    "name": "Grace",
-    "brief": "I can never remember our brand hex codes without opening Figma and digging through the style panel",
-    "email": "",
+    "name": "Suchithra Sathiyamurthy",
+    "brief": "I order things online and then have no idea when they're actually arriving. I end up checking three different courier sites with three tracking numbers and getting three different answers.",
+    "email": "suchithrasathy@arista.com",
     "timezone": "India",
-    "assignedTo": "Alice",
-    "assignedBrief": "I can never find the latest version of a design file — they multiply and I don't know which one is real",
-    "theme": "Horror Game"
+    "assignedTo": "Aghalya Narayanan",
+    "assignedBrief": "I never know what to watch next and end up re-watching something I've already seen because it's easier. I have a huge backlog of things I want to get to but no idea where to start or how to pick.",
+    "theme": "Japanese Game Show"
   },
   {
-    "name": "Hal",
-    "brief": "My laptop always picks the worst possible moment to do a software update",
-    "email": "",
-    "timezone": "US",
-    "assignedTo": "Grace",
-    "assignedBrief": "I can never remember our brand hex codes without opening Figma and digging through the style panel",
-    "theme": "Airport Departures Board"
+    "name": "Vrushali Bayani",
+    "brief": "I always mean to journal or reflect at the end of the day but by the time I sit down I'm too tired to think of anything to write. I want something that makes it feel less like homework and actually worth doing.",
+    "email": "vrushali@arista.com",
+    "timezone": "India",
+    "assignedTo": "Christina Janczak",
+    "assignedBrief": "I make a grocery list and then either leave it at home or forget to add something obvious. I've made a second trip back to the shop for one item more times than I can count.",
+    "theme": "NASA Mission Control"
+  },
+  {
+    "name": "Yevhen Lieskov",
+    "brief": "I can never decide whether to cook or order food, and the indecision itself takes longer than either option would. By the time I make a choice I'm too hungry to enjoy it.",
+    "email": "yevhen.lieskov@arista.com",
+    "timezone": "Europe",
+    "assignedTo": "Ritesh Tiwari",
+    "assignedBrief": "My grocery list exists simultaneously in a WhatsApp message to myself, a notes app, and sometimes a photo of the fridge. None of them are in sync and I always miss something.",
+    "theme": "DJ Set"
+  },
+  {
+    "name": "Yogesh Khabale",
+    "brief": "I have a list of things I want to learn — languages, skills, random topics — but no sense of where to start or how to make any actual progress. I pick something up for a week and then drop it for something else.",
+    "email": "yogesh.khabale@arista.com",
+    "timezone": "India",
+    "assignedTo": "Sharon Kalarikkal",
+    "assignedBrief": "Choosing a gift for someone I actually know well should be easy, but I always panic and end up buying something generic. I want something that helps me think about who the person really is.",
+    "theme": "Grocery Store Flyer"
   }
 ];
 window.THEME_DATA = [
